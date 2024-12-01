@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <section className="w-full lg:min-w-screen">
+        <section className="w-full lg:max-w-screen-lg mx-auto">
             <nav className="snap-start bg-white sticky w-full z-20 top-0 start-0 border-b border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">

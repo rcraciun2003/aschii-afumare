@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b3f2b1-e0ee-4d9e-9179-21f36851623f" name="Changes" comment="Video uploaded">
+    <list default="true" id="33b3f2b1-e0ee-4d9e-9179-21f36851623f" name="Changes" comment="Implemented: Header, Specs, Advantages, Benefits, Reviews(I need to change color)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Advantages/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Advantages/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Benefits/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Benefits/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Reviews/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Reviews/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Specs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Specs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,47 +27,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rcraciun2003"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rcraciun2003&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rcraciun2003/aschii-afumare.git",
-    "accountId": "3be7f7b4-d9ae-4c01-a23d-d868199b1d7d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rcraciun2003/aschii-afumare.git&quot;,
+    &quot;accountId&quot;: &quot;3be7f7b4-d9ae-4c01-a23d-d868199b1d7d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2pblJYWdnVHsP1tEWX6JrftaefH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Projects/test-refine-layout",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "E:\\Projects\\aschii-afumare\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/test-refine-layout&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Projects\\aschii-afumare\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\aschii-afumare\components" />
@@ -82,7 +92,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733042584452</updated>
-      <workItem from="1733042585826" duration="9997000" />
+      <workItem from="1733042585826" duration="11197000" />
+      <workItem from="1733071151389" duration="3050000" />
+      <workItem from="1733074268960" duration="3691000" />
     </task>
     <task id="LOCAL-00001" summary="Setup, theming and layout done">
       <option name="closed" value="true" />
@@ -100,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733055087292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Video uploaded">
+      <option name="closed" value="true" />
+      <created>1733055684280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733055684280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup, theming and layout done" />
     <MESSAGE value="Video uploaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Video uploaded" />
+    <MESSAGE value="Implemented: Header, Specs, Advantages, Benefits, Reviews(I need to change color)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented: Header, Specs, Advantages, Benefits, Reviews(I need to change color)" />
   </component>
 </project>

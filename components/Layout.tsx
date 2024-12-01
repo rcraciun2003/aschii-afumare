@@ -5,7 +5,7 @@ const Layout: React.FC = ({ children }) => {
     return (
         <div>
             <Navbar />
-            <main className="max-w-screen-2xl mx-auto">{children}</main>
+            <main className="max-w-screen-lg mx-auto">{children}</main>
             <Footer />
         </div>
     );

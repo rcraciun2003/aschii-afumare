@@ -8,9 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        DM: ['DM Serif Display', 'sans-serif'],
-      },
       fontSize: {
         'body-sm': '14px',
         'body-base': '15px',
@@ -55,7 +52,11 @@ export default {
         highlight: {
           red: '#D32F2F', // Deep Red Accent
         },
-        background: '#FDF6E3', // Soft Beige
+        background:{
+            DEFAULT: '#FDF6E3', // Soft Beige
+            white: '#F7F7F7', // White
+        },
+
       },
       spacing: {
         4: '1rem',
