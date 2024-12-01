@@ -1,5 +1,4 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
 
 const Header = () => {
     return (
@@ -9,19 +8,19 @@ const Header = () => {
                 <p>Description</p>
                 <button>Call to action</button>
             </div>
-            <div className="w-full h-full p-2 md:p-4 mx-auto my-auto flex items-center justify-center">
-                <video width="320" height="240" controls preload="none">
-                    <source src="../../public/presentation.mp4" type="video/mp4"/>
-                    <track
-                        src="../public/presentation.mp4"
-                        kind="subtitles"
-                        srcLang="en"
-                        label="English"
-                    />
+            <div className="w-full h-auto max-w-lg mx-auto my-auto flex items-center justify-center bg-gray-100 rounded-lg shadow-md">
+                <video
+                    controls
+                    autoPlay
+                    loop
+                    className="w-full  max-h-[50vh] rounded-lg"
+                >
+                    <source src="/trim.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
         </div>
-    )
-}
-export default Header
+    );
+};
+
+export default Header;
