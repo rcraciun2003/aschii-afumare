@@ -66,11 +66,11 @@ const Navbar = () => {
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Specs"
                                     className="block py-2 px-3 text-neutral-white bg-primary rounded md:bg-transparent md:text-primary md:p-0 "
                                     aria-current="page"
                                 >
-                                    Acasă
+                                    Specificatii
                                 </Link>
                             </li>
                             <li>
@@ -78,7 +78,7 @@ const Navbar = () => {
                                     href="#about"
                                     className="block py-2 px-3 text-neutral-text-neutral-charcoal rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0"
                                 >
-                                    Despre noi
+                                    Avantaje
                                 </Link>
                             </li>
                             <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
                                     href="#rooms"
                                     className="block py-2 px-3 text-neutral-charcoal rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0"
                                 >
-                                    Camere
+                                    Beneficii
                                 </Link>
                             </li>
                             <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                                     href="#gallery"
                                     className="block py-2 px-3 text-neutral-text-neutral-charcoal rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0"
                                 >
-                                    Galerie
+                                    Recenzii
                                 </Link>
                             </li>
                             <li>
@@ -102,7 +102,7 @@ const Navbar = () => {
                                     href="#restaurant"
                                     className="block py-2 px-3 text-neutral-text-neutral-charcoal rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0"
                                 >
-                                    Restaurant
+                                    Comanda
                                 </Link>
                             </li>
                             <li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                                     href="#contact"
                                     className="block py-2 px-3 text-neutral-text-neutral-charcoal rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0"
                                 >
-                                    Contact
+                                    Intrebari frecvente
                                 </Link>
                             </li>
                         </ul>

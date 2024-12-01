@@ -4,39 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b3f2b1-e0ee-4d9e-9179-21f36851623f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aschii-afumare.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Advantages/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Benefits/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/FAQ/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Order/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Reviews/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Specs/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/confidentialitate/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/returnare/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/termeni/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="33b3f2b1-e0ee-4d9e-9179-21f36851623f" name="Changes" comment="Video uploaded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +29,9 @@
     "accountId": "3be7f7b4-d9ae-4c01-a23d-d868199b1d7d"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -108,11 +82,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733042584452</updated>
-      <workItem from="1733042585826" duration="7873000" />
+      <workItem from="1733042585826" duration="9997000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup, theming and layout done">
+      <option name="closed" value="true" />
+      <created>1733052762985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733052762985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Video uploaded">
+      <option name="closed" value="true" />
+      <created>1733055087292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733055087292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup, theming and layout done" />
+    <MESSAGE value="Video uploaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video uploaded" />
   </component>
 </project>
