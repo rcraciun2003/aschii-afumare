@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Advantages = () => {
     return (
-        <div className='mt-10 p-4 '>
+        <div id='Advantages' className='mt-10 p-4 pt-36'>
             <h1 className='text-heading-lg md:text-title-sm font-bold text-neutral-charcoal mx-auto text-center max-w-screen-sm'>Așchii de afumare din fag – Aroma perfectă pentru preparatele tale!</h1>
             <div className='flex flex-col md:flex-row mx-auto w-full h-auto p-6'>
                 <div className='w-full h-auto justify-center items-center flex flex-col'>
@@ -33,7 +33,7 @@ const Advantages = () => {
                     </ul>
                 </div>
                 <div className='w-full h-full justify-center items-center flex bg-background rounded-xl px-6 py-8'>
-                    <Image src='/logo-brichete.svg' width={400} height={400} alt='Specificatiile produsului'
+                    <Image src='/prez7.png' width={500} height={400} alt='Specificatiile produsului'
                            className='p-4'/>
                 </div>
             </div>

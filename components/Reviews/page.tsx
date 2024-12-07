@@ -9,30 +9,44 @@ import "swiper/css/pagination";
 const Reviews = () => {
     const reviews = [
         {
-            name: "Andrei Popescu",
-            title: "Client Mulțumit",
-            review: "Produsul este excelent! Calitate superioară și livrare rapidă. Recomand cu încredere!",
+            name: "Stanciu Daniel",
+            location: "Pitești",
+            review: "Am folosit așchiile din fag simplu pentru a afuma păstrăv, iar aroma naturală a fagului a scos în evidență gustul delicat al peștelui. E o soluție perfectă pentru oricine vrea să obțină preparate afumate de calitate acasă.”",
             rating: 5,
             image: "https://via.placeholder.com/50",
         },
         {
-            name: "Maria Ionescu",
-            title: "Clientă Fidelă",
-            review: "Serviciile sunt impecabile, iar echipa mereu săritoare. Foarte mulțumită!",
+            name: "Rada Gheorghe",
+            location: "Târgu Jiu",
+            review: "Am încercat așchiile din fag pentru cotletele de porc și e altceva . De atunci le folosesc la gratar intotdeauna.",
             rating: 4,
             image: "https://via.placeholder.com/50",
         },
         {
-            name: "George Dumitru",
-            title: "Recenzie Pozitivă",
-            review: "Prețuri corecte și produse de calitate. Voi reveni pentru alte comenzi.",
+            name: "Tunischi Cătălin",
+            location: "București",
+            review: "Așchiile cu piper și usturoi au fost o alegere excelentă pentru afumarea carnatilor in afumatoarea de la Drevos . Mirosul din timpul afumării e de neegalat, iar gustul final a fost perfect condimentat. Recomand cu încredere!",
+            rating: 5,
+            image: "https://via.placeholder.com/50",
+        },
+        {
+            name: "Pavel Laurențiu",
+            location: "Craiova",
+            review: "Am folosit așchiile din fag simplu pentru afumarea coastei de vită și am obținut exact ce căutam: o aromă ușoară și naturală, fără să acopere gustul cărnii. Sunt foarte mulțumit și le voi recomanda și altora.",
+            rating: 5,
+            image: "https://via.placeholder.com/50",
+        },
+        {
+            name: "Berca Leonard",
+            location: "Brașov",
+            review: "Pentru mine, așchiile cu piper și usturoi sunt cele mai bune! Am afumat carne de miel, iar aroma condimentată și afumată a fost exact ce aveam nevoie pentru o masă memorabilă. Le recomand cu toată încrederea!",
             rating: 5,
             image: "https://via.placeholder.com/50",
         },
     ];
 
     return (
-        <div className="py-10">
+        <div id='Reviews' className="py-10 pt-36">
             <div className="max-w-4xl mx-auto px-4">
                 {/* Titlu Secțiune */}
                 <h2 className="text-heading-lg md:text-title-sm font-bold text-neutral-charcoal text-center mb-6">
@@ -51,21 +65,20 @@ const Reviews = () => {
                         768: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },
                     }}
-
                 >
                     {reviews.map((review, index) => (
                         <SwiperSlide key={index}>
                             <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
                                 {/* Avatar */}
-                                <img
-                                    src={review.image}
-                                    alt={review.name}
-                                    className="w-16 h-16 rounded-full mb-4"
-                                />
+                                {/*<img*/}
+                                {/*    src={review.image}*/}
+                                {/*    alt={review.name}*/}
+                                {/*    className="w-16 h-16 rounded-full mb-4"*/}
+                                {/*/>*/}
 
-                                {/* Nume și Titlu */}
+                                {/* Nume și Locatie */}
                                 <h3 className="text-lg font-semibold text-neutral-charcoal">{review.name}</h3>
-                                <p className="text-sm text-neutral-gray">{review.title}</p>
+                                <p className="text-sm text-neutral-gray">{review.location}</p>
 
                                 {/* Rating (Stele) */}
                                 <div className="flex items-center justify-center mt-2">

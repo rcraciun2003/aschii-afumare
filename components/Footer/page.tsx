@@ -25,7 +25,7 @@ const Footer = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row justify-center sm:space-x-4 space-y-4 sm:space-y-0 mb-6">
-                    <Link href="tel:+15555555555" className="inline-block">
+                    <Link href="tel:+40 725 184 359" className="inline-block">
                         <button className="bg-primary text-neutral-white px-4 py-2 rounded-md  text-sm md:text-base">
                             Comandă telefonică
                         </button>
@@ -40,6 +40,7 @@ const Footer = () => {
 
                 {/* Footer Links */}
                 <div className="flex flex-wrap justify-center space-x-6 text-neutral-gray text-sm md:space-x-8 md:text-base">
+                    <Link href="https://anpc.ro/" className="hover:text-primary">ANPC</Link>
                     <Link href="/termeni" className="hover:text-primary">Termeni si conditii</Link>
                     <Link href="/returnare" className="hover:text-primary">Politica de returnare</Link>
                     <Link href="/contact" className="hover:text-primary">Contact</Link>

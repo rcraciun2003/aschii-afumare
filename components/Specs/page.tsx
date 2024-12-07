@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Specs = () => {
     return (
-        <div className='mt-10 p-4 bg-background rounded-xl'>
+        <div id="Specs" className='mt-10 p-4 bg-background rounded-xl pt-36'>
             <h1 className='text-heading-lg md:text-title-sm font-bold text-neutral-charcoal mx-auto text-center max-w-screen-sm'>Descoperă secretul unei afumări autentice!</h1>
             <div className='flex flex-col md:flex-row mx-auto w-full h-auto p-6'>
                 <div className='w-full h-auto justify-center items-center flex flex-col'>
@@ -19,7 +19,7 @@ const Specs = () => {
                     </ul>
                 </div>
                 <div className='w-full h-full justify-center items-center flex '>
-                    <Image src='/logo-brichete.svg' width={400} height={400} alt='Specificatiile produsului'
+                    <Image src='/prez8.png' width={400} height={300} alt='Specificatiile produsului'
                            className='p-4'/>
                 </div>
             </div>

@@ -6,10 +6,10 @@ import { FaTruck, FaUndo, FaMoneyBillAlt } from "react-icons/fa";
 
 const Header = () => {
 
-    const originalPrice = 30;
-    const specialPrice = 19;
+    const originalPrice = 50;
+    const specialPrice = 24;
     const discount = Math.round(((originalPrice - specialPrice) / originalPrice) * 100);
-    const phoneNumber = "+40 123 456 789";
+    const phoneNumber = "+40 725 184 359";
 
     const benefits = [
         {
@@ -36,7 +36,7 @@ const Header = () => {
                     loop
                     className="w-full  max-h-[50vh] rounded-lg"
                 >
-                    <source src="/trim.mp4" type="video/mp4"/>
+                    <source src="/prezentation.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -71,7 +71,7 @@ const Header = () => {
 
                     {/* Call-to-Action Button */}
                     <div className="mt-6 text-center">
-                        <Link href='#order'>
+                        <Link href='#Order'>
                             <button
                                 className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-200 text-heading-lg"
                             >
@@ -81,7 +81,7 @@ const Header = () => {
                     </div>
                     <div className=" py-10">
                         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 shadow-lg hover:shadow-xl transition-shadow rounded-lg p-4">
-                            {benefits.map((benefit, index) => (
+                            {benefits.map((benefit: any, index) => (
                                 <div
                                     key={index}
                                     className="flex flex-col items-center"

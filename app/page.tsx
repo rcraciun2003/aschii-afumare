@@ -4,7 +4,6 @@ import Advantages from '../components/Advantages/page';
 import Benefits from '../components/Benefits/page';
 import Reviews from '../components/Reviews/page';
 import Order from '../components/Order/page';
-import FAQ from '../components/FAQ/page';
 
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
           <Benefits />
           <Reviews />
           <Order />
-          <FAQ />
 
       </>
   );
