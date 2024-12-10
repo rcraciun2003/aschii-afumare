@@ -2,6 +2,7 @@
 
 import { useCart } from '@/components/CartContext';
 import { useState, useEffect } from 'react';
+import { notify } from '@/components/Notification';
 
 export default function OrderForm() {
     const { cart } = useCart();
@@ -12,13 +13,11 @@ export default function OrderForm() {
         phone: '',
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
-
-    // Initialize quantities for each product in the cart
     const [quantities, setQuantities] = useState<{ [key: string]: number }>({});
 
     useEffect(() => {
         const initialQuantities = cart.reduce((acc, item) => {
-            acc[item.id] = item.quantity || 1; // Default quantity from cart or 1
+            acc[item.id] = item.quantity || 1;
             return acc;
         }, {});
         setQuantities(initialQuantities);
@@ -30,7 +29,7 @@ export default function OrderForm() {
     };
 
     const handleQuantityChange = (productId, event) => {
-        const newQuantity = Math.max(1, parseInt(event.target.value)); // Ensure quantity is at least 1
+        const newQuantity = Math.max(1, parseInt(event.target.value));
         setQuantities((prevQuantities) => ({
             ...prevQuantities,
             [productId]: newQuantity,
@@ -51,14 +50,14 @@ export default function OrderForm() {
             });
 
             if (response.ok) {
-                alert('Comanda plasata cu succes!');
+                notify('Comanda plasată cu succes!', 'success');
             } else {
                 const errorData = await response.json();
-                alert(`Nu s-a putut plasa comanda: ${errorData.message}`);
+                notify(`Nu s-a putut plasa comanda: ${errorData.message}`, 'error');
             }
         } catch (error) {
             console.error('Error:', error);
-            alert('Ceva a mers prost. Vă rugăm să încercați din nou.');
+            notify('Ceva a mers prost. Vă rugăm să încercați din nou.', 'error');
         } finally {
             setIsSubmitting(false);
         }
@@ -75,8 +74,7 @@ export default function OrderForm() {
         <div className="max-w-md mx-auto p-4 border rounded shadow">
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
-                    <label htmlFor="name"
-                           className="block text-sm font-closebold text-neutral-charcoal p-2 text-heading-sm">
+                    <label htmlFor="name" className="block text-sm font-bold mb-1">
                         Nume
                     </label>
                     <input
@@ -90,8 +88,7 @@ export default function OrderForm() {
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="email"
-                           className="block text-sm font-closebold text-neutral-charcoal p-2 text-heading-sm">
+                    <label htmlFor="email" className="block text-sm font-bold mb-1">
                         Email
                     </label>
                     <input
@@ -105,8 +102,7 @@ export default function OrderForm() {
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="address"
-                           className="block text-sm font-closebold text-neutral-charcoal p-2 text-heading-sm">
+                    <label htmlFor="address" className="block text-sm font-bold mb-1">
                         Adresa
                     </label>
                     <textarea
@@ -132,39 +128,35 @@ export default function OrderForm() {
                         required
                     />
                 </div>
-
                 <h3 className="text-lg font-bold mt-4">Rezumatul Comenzii</h3>
                 {cart.map((item) => (
                     <div key={item.id} className="flex justify-between items-center mt-2">
                         <p>{item.name} x</p>
                         <input
                             type="number"
-                            value={quantities[item.id] || 1} // Get the quantity for this item or default to 1
+                            value={quantities[item.id] || 1}
                             onChange={(e) => handleQuantityChange(item.id, e)}
                             className="w-16 p-1 border rounded"
                             min="1"
                         />
-                        <p className="font-closebold text-primary">
+                        <p className="font-bold text-primary">
                             {(item.price * (quantities[item.id] || 1)).toFixed(2)} LEI
                         </p>
                     </div>
                 ))}
-                <div className="mt-4 font-bold">
-                    Total: {total.toFixed(2)} LEI
-                </div>
+                <div className="mt-4 font-bold">Total: {total.toFixed(2)} LEI</div>
                 {deliveryCost > 0 && (
                     <div className="mt-2 font-bold text-red-500">
                         Livrarea costă 20 LEI (pentru comenzi sub 120 LEI)
                     </div>
                 )}
-                <div className="mt-4 font-bold">
-                    Total Final: {finalTotal.toFixed(2)} LEI
-                </div>
-
+                <div className="mt-4 font-bold">Total Final: {finalTotal.toFixed(2)} LEI</div>
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className={`mt-6 w-full bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded ${isSubmitting ? 'opacity-50' : ''}`}
+                    className={`mt-6 w-full bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded ${
+                        isSubmitting ? 'opacity-50' : ''
+                    }`}
                 >
                     {isSubmitting ? 'Se trimite...' : 'Trimite comanda'}
                 </button>

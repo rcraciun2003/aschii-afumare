@@ -6,12 +6,9 @@ import { useCart } from './CartContext';
 const products = [
     { id: 1, name: 'Așchii de afumare din fag', price: 16, image: '/fag.jpg' },
     { id: 2, name: 'Așchii de afumare cu rozmarin', price: 24, image: '/rozmarin.jpg' },
-    { id: 3, name: 'Așchii de afumare cu salvie', price: 24, image: '/salvie.jpg' },
-    { id: 4, name: 'Așchii de afumare cu piper și usturoi ', price: 24, image: '/piper-usturoi.jpg' },
-    { id: 5, name: 'Mixul de așchii de afumare cu cimbru și oregano', price: 24, image: '/rest.jpg' },
-    { id: 6, name: 'Mix de așchii de afumare pentru carne roșie', price: 24, image: '/carne-rosie.jpg' },
-    { id: 7, name: 'Mix de așchii pentru carne albă', price: 24, image: '/rest.jpg' },
-    { id: 8, name: 'Mix de așchii pentru pește', price: 24, image: '/peste.jpg' },
+    { id: 3, name: 'Așchii de afumare cu piper și usturoi ', price: 24, image: '/piper-usturoi.jpg' },
+    { id: 4, name: 'Mix de așchii de afumare pentru carne roșie', price: 24, image: '/carne-rosie.jpg' },
+    { id: 5, name: 'Mix de așchii pentru pește', price: 24, image: '/peste.jpg' },
 ];
 
 export default function ProductList() {

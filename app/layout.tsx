@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar/page";
 import Footer from "@/components/Footer/page";
 import "./globals.css";
+import { NotificationProvider } from "@/components/Notification";
 
 const inter = Inter({
     weight: ['400', '700'],
@@ -25,9 +26,11 @@ export default function RootLayout({
             <link rel="icon" href="favicon.ico"/>
         </head>
         <body>
+        <NotificationProvider>
         <Navbar/>
         <main className="max-w-screen-lg mx-auto">{children}</main>
         <Footer/>
+        </NotificationProvider>
         </body>
         </html>
     );
